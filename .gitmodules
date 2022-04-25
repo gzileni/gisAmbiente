@@ -1,0 +1,16 @@
+[submodule "src/app/search"]
+	path = src/app/search
+	url = git@github.com:gzileni/ng-search.git
+	branch = develop
+[submodule "src/app/ambiente"]
+	path = src/app/ambiente
+	url = git@github.com:gzileni/ng-ambiente.git
+	branch = develop
+[submodule "src/app/graph"]
+	path = src/app/graph
+	url = git@github.com:gzileni/ng-graph.git
+	branch = develop
+[submodule "src/app/copernicus"]
+	path = src/app/copernicus
+	url = git@github.com:gzileni/ng-copernicus.git
+	branch = develop

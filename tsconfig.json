@@ -1,0 +1,54 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "skipLibCheck":true,   // !! Info: https://medium.com/@pro.gramistka/create-interactive-maps-in-angular-12-project-with-openlayers-ba6683d6fe5b
+    "target": "es2017",
+    "module": "es2020",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "paths": {
+      "@search/*": [
+        "src/app/search/*"
+      ],
+      "@map/*": [
+        "src/app/map/*"
+      ],
+      "@material/*": [
+        "src/app/material/*"
+      ],
+      "@graph/*": [
+        "src/app/graph/*"
+      ],
+      "@copernicus/*": [
+        "src/app/copernicus/*"
+      ],
+      "@ambiente/*": [
+        "src/app/ambiente/*"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}

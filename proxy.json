@@ -1,0 +1,26 @@
+{
+  "/geoserver/*": {
+    "target": "http://openpuglia.org:8080/geoserver",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/geoserver": ""
+    }
+  },
+  "/ambiente/*": {
+    "target": "http://api.openpuglia.org:5000/ambiente",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/ambiente": ""
+    }
+  },
+  "/copernicus/*": {
+    "target": "http://api.openpuglia.org:5001/copernicus",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}

@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.box {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.search {
+  background-color: white;
+  left: 20%;
+  width: 60vw;
+  height: 90px;
+  position: absolute;
+  border-radius: 20px;
+  border: 1px solid #c1c1c1;
+  z-index: 100;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.first {
+  top: 70px;
+  height: 120px;
+  opacity: 0.8;
+}
+
+.second {
+  top: 220px;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.third {
+  top: 330px;
+  background-color: transparent;
+  border-radius: unset;
+  border: unset;
+}
+
+.warning {
+  font-size: medium;
+  color: red;
+}
+
+
